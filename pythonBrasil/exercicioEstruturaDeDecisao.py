@@ -1,15 +1,47 @@
 #EXERCICIO_(1)
   # Faça um Programa que peça dois números e imprima o maior deles.
+# numberA = input("Digite um número(1/2):")
+# numberB = input("Digite um número(2/2):")
+
+# if numberA > numberB:
+#   print("O número maior é", numberA)
+# else:
+#   print("O número maior é", numberB)
 
 #EXERCICIO_(2)
   # Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+
+# number = int(input("Digite um número:"))
+
+# if number < 0:
+#     print("O número é negativo")
+# if number > 0:
+#     print("O número é positivo")
+# if number == 0:
+#     print("O número é neutro, o número é", number)
+    
 
 #EXERCICIO_(3)
   # Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme
   # a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
 
+# sexo = input("Digite F ou M:")
+
+# if sexo == "F" or sexo == "f":
+#   print("Feminino")
+# if sexo == "M" or sexo == "m":
+#   print("Masculino")
+# if sexo != "F" and sexo != "f" and sexo != "M" and sexo != "m":
+#   print("Inválido") 
+
 #EXERCICIO_(4)
   # Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+
+# letra = str(input("Digite uma letra:"))
+# if letra != "a" and letra != "e" and letra != "i" and letra != "o" and letra != "u":
+#     print("Consoante")
+# else:
+#   print("Vogal")
 
 #EXERCICIO_(5)
   # Faça um programa para a leitura de duas notas parciais de um aluno. O programa
@@ -21,7 +53,6 @@
 
 #EXERCICIO_(6) 
 # Faça um Programa que leia três números e mostre o maior deles.
-
 #EXERCICIO_(7) 
 # Faça um Programa que leia três números e mostre o maior e o menor deles.
 
