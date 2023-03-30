@@ -1,6 +1,5 @@
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ###operadores aritméticos###
-
 + 
 -
 *
@@ -49,6 +48,30 @@ ex:1
 print('Hoje está chovendo ' + ('secas', 'molhadas')[],)
 ex2:
 print('Hoje está chovendo ' + ('secas', if esta_chovendo else 'secas'))
+
+###operadores de membro###
+
+/////in
+lista = [1,2,3,''Ana,'Carla']
+2 in lista (true)
+'Ana' not in lista (false)
+
+/////is
+x = 3
+y = x
+z = 3
+
+x is y (true)
+y is z (true)
+x is not z (false\)
+
+listaA = [1,2] 
+listaB = listaA
+listaC = [1,2]
+
+listaA is listaB (true)
+listaB is listaC (false) pq apesar das listas serem iguais, elas não são as mesmas
+listaA is not listaC (true) pq apesar das listas serem iguais, elas não são as mesmas
 
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
